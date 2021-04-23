@@ -1,0 +1,47 @@
+body{
+   margin: 10px;
+   background-image: url(../image/wall.jpg);
+}
+
+.container{
+   width: 700px;
+   margin: 0 auto;
+}
+
+.barra{
+   background-color: #000;
+   color: #fff;
+   font-size: 20px;
+   height: 20px;
+   width: 660px;
+   padding: 20px;
+}
+
+#my_canvas{
+   background: #000;
+   border: #000 1px solid;
+}
+#botones{
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-end;
+   /* border:2px solid #fff; */
+   width: 660px;
+   height: 30px;
+   padding: 20px;
+margin: 0 auto;
+}
+.boton{
+color: #fff;
+font-size: 40px;
+background-color: #000;
+cursor: pointer;
+border-radius: 8px;
+border: 2px solid #00f;
+
+}
+
+.boton:hover{
+   background-color: #fff;
+   color: #000;
+}
